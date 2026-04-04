@@ -23,3 +23,27 @@ Project for automating work with Excel and Word:
 ## Target
 
 Simplify your data management by collecting data from different Excel files and quickly generating reports in Word.
+
+# Templates
+
+## Purpose
+
+This folder stores DB file templates used for recording data and exporting to Word.
+
+## Structure
+
+- `BD_Template.xlsm` — the main DB template:
+- A sheet with a fixed-structure table (e.g.: ID, Date, Value1, Value2).
+- A **Start** button for running the export macro.
+- A VBA module with the procedure for exporting data to Word.
+
+## Status
+
+The `BD_Template.xlsm` file has not yet been created. It will be added in the next development stage.
+
+## Purpose
+
+The template ensures consistency in the DB structure and simplifies working with macros:
+
+- All new DBs are created by copying this file.
+- A pre-built button and macro are included.
